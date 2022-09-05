@@ -9,7 +9,7 @@ tiny-rtt_CFLAGS += \
 
 tiny-rtt_INC_DIRS := \
   $(__lib_tiny-rtt_path)/Config \
-  $(__lib_tiny-rtt_path)/inc \
+  $(__lib_tiny-rtt_path)/include \
 
 tiny-rtt_SRC_FILES := \
 
@@ -17,4 +17,4 @@ tiny-rtt_SRC_DIRS := \
   $(__lib_tiny-rtt_path)/src \
 
 INC_DIRS += \
-  $(__lib_tiny-rtt_path)/inc \
+  $(__lib_tiny-rtt_path)/include \
